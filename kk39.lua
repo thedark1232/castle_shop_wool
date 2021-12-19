@@ -1,0 +1,140 @@
+local castle_library = {}
+function castle_library.build_pair()
+local t = {
+["1"] = {x = {}, y = {},name = {}, meta = {}},
+["2"] = {x = {}, y = {},name = {}, meta = {}},
+["3"] = {x = {}, y = {},name = {}, meta = {}},
+["4"] = {x = {}, y = {},name = {}, meta = {}},
+["5"] = {x = {}, y = {},name = {}, meta = {}},
+["6"] = {x = {}, y = {},name = {}, meta = {}},
+["7"] = {x = {}, y = {},name = {}, meta = {}},
+["8"] = {x = {}, y = {},name = {}, meta = {}},
+["9"] = {x = {}, y = {},name = {}, meta = {}},
+["10"] = {x = {}, y = {},name = {}, meta = {}},
+["11"] = {x = {}, y = {},name = {}, meta = {}},
+["12"] = {x = {}, y = {},name = {}, meta = {}},
+["13"] = {x = {}, y = {},name = {}, meta = {}},
+["14"] = {x = {}, y = {},name = {}, meta = {}},
+["15"] = {x = {}, y = {},name = {}, meta = {}},
+["16"] = {x = {}, y = {},name = {}, meta = {}},
+["17"] = {x = {}, y = {},name = {}, meta = {}},
+["18"] = {x = {}, y = {},name = {}, meta = {}},
+["19"] = {x = {}, y = {},name = {}, meta = {}},
+["20"] = {x = {}, y = {},name = {}, meta = {}},
+["21"] = {x = {}, y = {},name = {}, meta = {}},
+["22"] = {x = {}, y = {},name = {}, meta = {}},
+["23"] = {x = {}, y = {},name = {}, meta = {}},
+["24"] = {x = {}, y = {},name = {}, meta = {}},
+["25"] = {x = {}, y = {},name = {}, meta = {}},
+["26"] = {x = {}, y = {},name = {}, meta = {}},
+["27"] = {x = {}, y = {},name = {}, meta = {}},
+["28"] = {x = {}, y = {},name = {}, meta = {}},
+["29"] = {x = {}, y = {},name = {}, meta = {}},
+["30"] = {x = {}, y = {},name = {}, meta = {}},
+["31"] = {x = {}, y = {},name = {}, meta = {}},
+["32"] = {x = {}, y = {},name = {}, meta = {}},
+["33"] = {x = {}, y = {},name = {}, meta = {}},
+["34"] = {x = {}, y = {},name = {}, meta = {}},
+["35"] = {x = {}, y = {},name = {}, meta = {}},
+["36"] = {x = {}, y = {},name = {}, meta = {}},
+["37"] = {x = {}, y = {},name = {}, meta = {}},
+["38"] = {x = {}, y = {},name = {}, meta = {}},
+["39"] = {x = {}, y = {},name = {}, meta = {}},
+["40"] = {x = {}, y = {},name = {}, meta = {}},
+["41"] = {x = {}, y = {},name = {}, meta = {}},
+["42"] = {x = {}, y = {},name = {}, meta = {}},
+["43"] = {x = {}, y = {},name = {}, meta = {}},
+["44"] = {x = {}, y = {},name = {}, meta = {}},
+["45"] = {x = {}, y = {},name = {}, meta = {}},
+["46"] = {x = {}, y = {},name = {}, meta = {}},
+["47"] = {x = {}, y = {},name = {}, meta = {}},
+["48"] = {x = {}, y = {},name = {}, meta = {}},
+["49"] = {x = {}, y = {},name = {}, meta = {}},
+["50"] = {x = {}, y = {},name = {}, meta = {}},
+["51"] = {x = {}, y = {},name = {}, meta = {}},
+["52"] = {x = {}, y = {},name = {}, meta = {}},
+["53"] = {x = {}, y = {},name = {}, meta = {}},
+["54"] = {x = {}, y = {},name = {}, meta = {}},
+["55"] = {x = {}, y = {},name = {}, meta = {}},
+["56"] = {x = {}, y = {},name = {}, meta = {}},
+["57"] = {x = {}, y = {},name = {}, meta = {}},
+["58"] = {x = {}, y = {},name = {}, meta = {}},
+["59"] = {x = {}, y = {},name = {}, meta = {}},
+["60"] = {x = {}, y = {},name = {}, meta = {}},
+["61"] = {x = {}, y = {},name = {}, meta = {}},
+["62"] = {x = {}, y = {},name = {}, meta = {}},
+["63"] = {x = {}, y = {},name = {}, meta = {}},
+["64"] = {x = {}, y = {},name = {}, meta = {}},
+["65"] = {x = {}, y = {},name = {}, meta = {}},
+["66"] = {x = {}, y = {},name = {}, meta = {}},
+["67"] = {x = {}, y = {},name = {}, meta = {}},
+["68"] = {x = {}, y = {},name = {}, meta = {}},
+["69"] = {x = {}, y = {},name = {}, meta = {}},
+["70"] = {x = {}, y = {},name = {}, meta = {}},
+["71"] = {x = {}, y = {},name = {}, meta = {}},
+["72"] = {x = {}, y = {},name = {}, meta = {}},
+["73"] = {x = {}, y = {},name = {}, meta = {}},
+["74"] = {x = {}, y = {},name = {}, meta = {}},
+["75"] = {x = {}, y = {},name = {}, meta = {}},
+["76"] = {x = {}, y = {},name = {}, meta = {}},
+["77"] = {x = {}, y = {},name = {}, meta = {}},
+["78"] = {x = {}, y = {},name = {}, meta = {}},
+["79"] = {x = {}, y = {},name = {}, meta = {}},
+["80"] = {x = {}, y = {},name = {}, meta = {}},
+["81"] = {x = {}, y = {},name = {}, meta = {}},
+["82"] = {x = {}, y = {},name = {}, meta = {}},
+["83"] = {x = {}, y = {},name = {}, meta = {}},
+["84"] = {x = {}, y = {},name = {}, meta = {}},
+["85"] = {x = {}, y = {},name = {}, meta = {}},
+["86"] = {x = {}, y = {},name = {}, meta = {}},
+["87"] = {x = {}, y = {},name = {}, meta = {}},
+["88"] = {x = {}, y = {},name = {}, meta = {}},
+["89"] = {x = {}, y = {},name = {}, meta = {}},
+["90"] = {x = {}, y = {},name = {}, meta = {}},
+["91"] = {x = {}, y = {},name = {}, meta = {}},
+["92"] = {x = {}, y = {},name = {}, meta = {}},
+["93"] = {x = {}, y = {},name = {}, meta = {}},
+["94"] = {x = {}, y = {},name = {}, meta = {}},
+["95"] = {x = {}, y = {},name = {}, meta = {}},
+["96"] = {x = {}, y = {},name = {}, meta = {}},
+["97"] = {x = {}, y = {},name = {}, meta = {}},
+["98"] = {x = {}, y = {},name = {}, meta = {}},
+["99"] = {x = {}, y = {},name = {}, meta = {}},
+["100"] = {x = {}, y = {},name = {}, meta = {}},
+["101"] = {x = {}, y = {},name = {}, meta = {}},
+["102"] = {x = {}, y = {},name = {}, meta = {}},
+["103"] = {x = {}, y = {},name = {}, meta = {}},
+["104"] = {x = {}, y = {},name = {}, meta = {}},
+["105"] = {x = {}, y = {},name = {}, meta = {}},
+["106"] = {x = {}, y = {},name = {}, meta = {}},
+["107"] = {x = {}, y = {},name = {}, meta = {}},
+["108"] = {x = {}, y = {},name = {}, meta = {}},
+["109"] = {x = {}, y = {},name = {}, meta = {}},
+["110"] = {x = {}, y = {},name = {}, meta = {}},
+["111"] = {x = {}, y = {},name = {}, meta = {}},
+["112"] = {x = {}, y = {},name = {}, meta = {}},
+["113"] = {x = {}, y = {},name = {}, meta = {}},
+["114"] = {x = {}, y = {},name = {}, meta = {}}}
+
+t["23"].x[1] = 15; t["23"].y[1] = 0; t["23"].name[1] = "minecraft:stone_slab"; t["23"].meta[1] = 8
+t["23"].x[2] = 16; t["23"].y[2] = 0; t["23"].name[2] = "minecraft:double_stone_slab"; t["23"].meta[2] = 8
+t["23"].x[3] = 16; t["23"].y[3] = 1; t["23"].name[3] = "minecraft:stone_slab"; t["23"].meta[3] = 0
+t["22"].x[1] = 16; t["22"].y[1] = 0; t["22"].name[1] = "minecraft:stone_slab"; t["22"].meta[1] = 8
+t["21"].x[1] = 16; t["21"].y[1] = 0; t["21"].name[1] = "minecraft:stone_slab"; t["21"].meta[1] = 0
+t["20"].x[1] = 16; t["20"].y[1] = 0; t["20"].name[1] = "minecraft:fence"; t["20"].meta[1] = 0
+t["14"].x[1] = 16; t["14"].y[1] = 0; t["14"].name[1] = "minecraft:quartz_stairs"; t["14"].meta[1] = 0
+t["13"].x[1] = 15; t["13"].y[1] = 0; t["13"].name[1] = "minecraft:fence"; t["13"].meta[1] = 0
+t["13"].x[2] = 16; t["13"].y[2] = 0; t["13"].name[2] = "minecraft:quartz_block"; t["13"].meta[2] = 0
+t["13"].x[3] = 16; t["13"].y[3] = 1; t["13"].name[3] = "minecraft:quartz_stairs"; t["13"].meta[3] = 3
+t["12"].x[1] = 15; t["12"].y[1] = 0; t["12"].name[1] = "minecraft:quartz_block"; t["12"].meta[1] = 0
+t["12"].x[2] = 16; t["12"].y[2] = 0; t["12"].name[2] = "minecraft:stone_slab"; t["12"].meta[2] = 15
+t["12"].x[3] = 16; t["12"].y[3] = 1; t["12"].name[3] = "minecraft:stone_slab"; t["12"].meta[3] = 15
+t["11"].x[1] = 15; t["11"].y[1] = 0; t["11"].name[1] = "minecraft:fence"; t["11"].meta[1] = 0
+t["10"].x[1] = 16; t["10"].y[1] = 0; t["10"].name[1] = "minecraft:stone_brick_stairs"; t["10"].meta[1] = 3
+t["9"].x[1] = 16; t["9"].y[1] = 0; t["9"].name[1] = "minecraft:stone_brick_stairs"; t["9"].meta[1] = 7
+t["3"].x[1] = 16; t["3"].y[1] = 0; t["3"].name[1] = "minecraft:stone_brick_stairs"; t["3"].meta[1] = 3
+t["2"].x[1] = 16; t["2"].y[1] = 0; t["2"].name[1] = "minecraft:stonebrick"; t["2"].meta[1] = 0
+t["1"].x[1] = 16; t["1"].y[1] = 0; t["1"].name[1] = "minecraft:stonebrick"; t["1"].meta[1] = 2
+return t
+end
+return castle_library
